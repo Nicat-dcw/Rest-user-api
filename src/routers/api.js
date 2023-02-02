@@ -42,8 +42,7 @@ docs.map(x=> {
 })
     });
 })
-/*
-==COMES IN 10 STARS==
+
 router.get(`/${version}/@me`, async (req,res) => {
 const authToken = req.headers['Authorization']
     res.set("text", "json");
@@ -86,6 +85,6 @@ if(err){
             token: docs.token
         })
     });
-})*/
+})
 
 module.exports = router;

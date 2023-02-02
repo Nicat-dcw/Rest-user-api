@@ -8,7 +8,7 @@ const randomNumber = require("../generator/id")
 router.use((req, res, next) => {
   res.set("text", "json");
   res.setHeader("Content-Type", "application/json");
-  if (req.get("Authorization") !== process.env.PRIVATE_KEYY)
+  if (req.get("Authorization") !== process.env.PRIVATE_KEY)
     return res.json({ code: 400, message: "Access denied" });
   next();
 });

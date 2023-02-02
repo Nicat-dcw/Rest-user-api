@@ -6,4 +6,7 @@
 
 # 30 Stars • ❌ - Account Management
 
+#### Setup:
+##### Admin Authorization Key at `.env` file with PRIVATE_KEY variable
+##### MongoDB url at `.env` file with MONGODB_URL variable
 ### By Only Cheeini

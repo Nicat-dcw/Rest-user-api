@@ -1,0 +1,6 @@
+{
+    "idRequired":"User ID is required for this request",
+    "userNotFound":"User not found",
+    "accessDenied":"Access Denied",
+    "usernameLength":"Username(s) not higher than 12"
+}
